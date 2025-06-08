@@ -227,5 +227,64 @@
         $(".box__letter").slideUp();
         $(".letter__border").slideUp();
     })
-</script>
+@media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .left, .right {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .flag__birthday img {
+        width: 200px !important;
+    }
+
+    .box__account .image img {
+        width: 150px;
+    }
+
+    .cricle {
+        margin-top: 20px;
+    }
+
+    .btn button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .title h1 span {
+        font-size: 32px;
+    }
+
+    .love__img img,
+    .content__letter .right img {
+        width: 180px;
+    }
+
+    .box__letter {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    #heart__letter {
+        width: 80px;
+    }
+
+    .text__letter p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .decorate_star,
+    .decorate_flower--one,
+    .decorate_flower--two,
+    .decorate_flower--three {
+        display: none; /* ẩn một số hiệu ứng nếu muốn nhẹ hơn cho mobile */
+    }
+}
+    </script>
 </html>
